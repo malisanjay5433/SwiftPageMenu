@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class RoundRectCursorView: UIView, TabMenuItemCursor {
 
