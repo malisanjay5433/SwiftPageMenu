@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 @objc public protocol PageMenuControllerDataSource: class {
 
     /// The view controllers to display in the page menu view controller.
