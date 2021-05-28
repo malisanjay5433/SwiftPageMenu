@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class PanBlockGestureRecognizerDelegate: NSObject, UIGestureRecognizerDelegate {
 
