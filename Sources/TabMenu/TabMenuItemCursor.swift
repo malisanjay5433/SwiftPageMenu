@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import 
 protocol TabMenuItemCursor: class {
 
     var isHidden: Bool { get set }
