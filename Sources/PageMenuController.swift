@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 open class PageMenuController: UIViewController {
 
