@@ -16,8 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftPageMenu",
-            path: "./Source"
-            dependencies: []),
+            path: "./Source"),
         .testTarget(
             name: "SwiftPageMenuTests",
             dependencies: ["SwiftPageMenu"]),
