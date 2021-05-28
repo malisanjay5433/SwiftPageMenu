@@ -6,6 +6,7 @@
 //  Copyright © 2017 Tamanyan. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 @objc public protocol PageMenuControllerDelegate: class {
