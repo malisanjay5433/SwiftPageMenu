@@ -1,16 +1,24 @@
-
+/ swift-tools-version:5.1
 import PackageDescription
-
 let package = Package(
     name: "SwiftPageMenu",
-    products: [
-        .library(name: "SwiftPageMenu", targets: ["SwiftPageMenu"]),
+    platforms: [
+        .iOS(.v12),
     ],
-    dependencies: [],
+    products: [
+        .library(
+            name: "SwiftPageMenu",
+            targets: ["SwiftPageMenu"]),
+    ],
+    dependencies: [
+        // no dependencies
+    ],
     targets: [
         .target(
             name: "SwiftPageMenu",
-            path: "./SwiftPageMenu/Source"
-        )
+            dependencies: []),
+        .testTarget(
+            name: "SwiftPageMenuTests",
+            dependencies: ["SwiftPageMenu"]),
     ]
 )
