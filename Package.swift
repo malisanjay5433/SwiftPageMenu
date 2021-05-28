@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftPageMenu",
-            path: "./Source"
+            path: "./SwiftPageMenu/Source"
         )
     ]
 )
